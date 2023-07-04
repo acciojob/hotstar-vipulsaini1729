@@ -43,50 +43,62 @@ public class WebSeries {
     }
 
     public int getId() {
+
         return id;
     }
 
     public void setId(int id) {
+
         this.id = id;
     }
 
     public String getSeriesName() {
+
         return seriesName;
     }
 
     public void setSeriesName(String seriesName) {
+
         this.seriesName = seriesName;
     }
 
     public int getAgeLimit() {
+
         return ageLimit;
     }
 
     public void setAgeLimit(int ageLimit) {
+
         this.ageLimit = ageLimit;
     }
 
     public double getRating() {
+
         return rating;
     }
 
     public void setRating(double rating) {
+
         this.rating = rating;
     }
 
     public SubscriptionType getSubscriptionType() {
+
         return subscriptionType;
     }
 
     public void setSubscriptionType(SubscriptionType subscriptionType) {
+
         this.subscriptionType = subscriptionType;
     }
 
     public ProductionHouse getProductionHouse() {
+
         return productionHouse;
     }
 
     public void setProductionHouse(ProductionHouse productionHouse) {
+
         this.productionHouse = productionHouse;
     }
 }

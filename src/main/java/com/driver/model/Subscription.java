@@ -42,22 +42,27 @@ public class Subscription {
     }
 
     public int getId() {
+
         return id;
     }
 
     public void setId(int id) {
+
         this.id = id;
     }
 
     public SubscriptionType getSubscriptionType() {
+
         return subscriptionType;
     }
 
     public void setSubscriptionType(SubscriptionType subscriptionType) {
+
         this.subscriptionType = subscriptionType;
     }
 
     public int getNoOfScreensSubscribed() {
+
         return noOfScreensSubscribed;
     }
 
@@ -66,6 +71,7 @@ public class Subscription {
     }
 
     public Date getStartSubscriptionDate() {
+
         return startSubscriptionDate;
     }
 
@@ -74,18 +80,22 @@ public class Subscription {
     }
 
     public int getTotalAmountPaid() {
+
         return totalAmountPaid;
     }
 
     public void setTotalAmountPaid(int totalAmountPaid) {
+
         this.totalAmountPaid = totalAmountPaid;
     }
 
     public User getUser() {
+
         return user;
     }
 
     public void setUser(User user) {
+
         this.user = user;
     }
 }

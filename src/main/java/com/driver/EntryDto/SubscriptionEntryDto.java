@@ -16,26 +16,32 @@ public class SubscriptionEntryDto {
     }
 
     public int getUserId() {
+
         return userId;
     }
 
     public void setUserId(int userId) {
+
         this.userId = userId;
     }
 
     public SubscriptionType getSubscriptionType() {
+
         return subscriptionType;
     }
 
     public void setSubscriptionType(SubscriptionType subscriptionType) {
+
         this.subscriptionType = subscriptionType;
     }
 
     public int getNoOfScreensRequired() {
+
         return noOfScreensRequired;
     }
 
     public void setNoOfScreensRequired(int noOfScreensRequired) {
+
         this.noOfScreensRequired = noOfScreensRequired;
     }
 }

@@ -29,42 +29,52 @@ public class WebSeriesEntryDto {
     }
 
     public String getSeriesName() {
+
         return seriesName;
     }
 
     public void setSeriesName(String seriesName) {
+
         this.seriesName = seriesName;
     }
 
     public int getAgeLimit() {
+
         return ageLimit;
     }
 
     public void setAgeLimit(int ageLimit) {
+
         this.ageLimit = ageLimit;
     }
 
     public double getRating() {
+
         return rating;
     }
 
     public void setRating(double rating) {
+
         this.rating = rating;
     }
 
     public SubscriptionType getSubscriptionType() {
+
         return subscriptionType;
     }
 
     public void setSubscriptionType(SubscriptionType subscriptionType) {
+
         this.subscriptionType = subscriptionType;
     }
 
     public Integer getProductionHouseId() {
+
         return productionHouseId;
     }
 
     public void setProductionHouseId(Integer productionHouseId) {
+
         this.productionHouseId = productionHouseId;
     }
 }
